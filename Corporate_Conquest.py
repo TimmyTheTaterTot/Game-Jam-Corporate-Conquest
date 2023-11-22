@@ -11,6 +11,12 @@ class App():
         pygame.init()
         self.clock = pygame.time.Clock()
 
+        self.music_channel = pygame.mixer.Channel(1)
+        self.sfx_channel = pygame.mixer.Channel(2)
+        self.soundtrack = pygame.mixer.Sound("Sound/Game music.mp3")
+        self.soundtrack.set_volume(0.4)
+        self.flip_card_sfx = pygame.mixer.Sound("Sound/Card Flip.mp3")
+
         self.screenwidth = 1000
         self.screenheight = 800
 
@@ -51,6 +57,7 @@ class App():
 
         self.game_active = False
         self.game_over = False
+        self.title_screen = True
 
         self.init_screen()
         self.main_loop()
@@ -61,6 +68,7 @@ class App():
         pygame.display.set_caption("Corporate Conquest")
 
         self.set_background_image("Images/Backgrounds/Title Screen.png")
+        self.music_channel.play(self.soundtrack, -1, fade_ms=1000)
         
 
     def init_game_screen(self):
@@ -108,6 +116,7 @@ class App():
                 self.level3_cards = rand.sample([i for i in range(30, 45)], 15)
             self.card_number = self.level3_cards.pop(0)
 
+        self.sfx_channel.play(self.flip_card_sfx, 0)
         return Card(*self.cards[self.card_number])
             
 
@@ -192,21 +201,21 @@ class App():
         elif self.player_level == 1:
             if self.player_karma < 0:
                 self.fail_game()
-            elif self.player_greed > 100:
+            elif self.player_greed >= 100:
                 self.player_level += 1
                 self.player_karma = 100
-                self.set_background_image(self.backgrounds[1])
+                self.promotion()
         elif self.player_level == 2:
             if self.player_karma < 0:
                 self.fail_game()
-            elif self.player_greed > 200:
+            elif self.player_greed >= 200:
                 self.player_level += 1
                 self.player_karma = 100
-                self.set_background_image(self.backgrounds[2])
+                self.promotion()
         elif self.player_level == 3:
             if self.player_karma < 0:
                 self.fail_game()
-            elif self.player_greed > 300:
+            elif self.player_greed >= 300:
                 self.win_game()
 
 
@@ -248,6 +257,11 @@ class App():
         self.game_over = True
         self.set_background_image("Images/Backgrounds/Win Screen.png")
 
+
+    def promotion(self):
+        self.game_active = False
+        self.set_background_image("Images/Backgrounds/Promotion Screen.png")
+
     
     def main_loop(self):
         running = True
@@ -257,7 +271,6 @@ class App():
                     if event.type == pygame.QUIT:
                         running = False
                     elif event.type == self.change_card_event_type:
-                        print('received event')
                         self.old_card = None
                         self.card_active = True
                     else:
@@ -279,7 +292,7 @@ class App():
                             if event.key == pygame.K_RETURN:
                                 running = False
                     self.draw_background()
-                else:
+                elif self.title_screen:
                     for event in pygame.event.get():
                         if event.type == pygame.QUIT:
                             running = False
@@ -287,6 +300,19 @@ class App():
                             if event.key == pygame.K_RETURN:
                                 self.init_game_screen()
                                 self.game_active = True
+                                self.title_screen = False
+
+                    self.draw_background()
+                else:
+                    for event in pygame.event.get():
+                        if event.type == pygame.QUIT:
+                            running = False
+                        elif event.type == pygame.KEYDOWN:
+                            if event.key == pygame.K_RETURN:
+                                self.game_active = True
+                                self.old_card = None
+                                self.card_active = True
+                                self.set_background_image(self.backgrounds[self.player_level-1])
 
                     self.draw_background()
 
