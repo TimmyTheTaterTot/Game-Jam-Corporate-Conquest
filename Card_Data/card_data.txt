@@ -1,0 +1,218 @@
+Sample Card Data:
+Title
+Card Text
+Path to Picture (from root of game)
+Left Choice Data (karma, greed, happiness)
+Right Choice Data (karma, greed, happiness)
+font
+~
+Tutorial Card 1
+Welcome to Corporate Conquest, a greedy decision making game! To advance through this tutorial, click to the left or right of this card.
+Images/beach1.jpg
+0, 0, 0
+0, 0, 0
+calibri
+~
+Tutorial Card 2
+You have just been onboarded into a new company, given your own cubicle, and even a fresh stack of sticky notes!
+Images/beach1.jpg
+0, 0, 0
+0, 0, 0
+calibri
+~
+Tutorial Card 3
+Your work at this company (strangly) mainly consists of making decisions based on what your boss or coworkers ask of you.
+Images/beach1.jpg
+0, 0, 0
+0, 0, 0
+calibri
+~
+Tutorial Card 4
+Swiping right on a card means yes, and swiping left means no.
+Images/beach1.jpg
+0, 0, 0
+0, 0, 0
+calibri
+~
+Tutorial Card 5
+Depending on the decisions you make, your greed and happiness will either increase or decrease. Since greed brings promotions, more greed is better.
+Images/beach1.jpg
+0, 0, 0
+0, 0, 0
+calibri
+~
+Tutorial Card 6
+Now all there is to do is get working and earning more money than ever before!
+Images/beach1.jpg
+0, 0, 0
+0, 0, 0
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~
+Level 1 Card
+This is a sample card from level 1
+Images/landscape.png
+10, -10, -10
+-9, 10, 10
+calibri
+~ LEVEL 2
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~
+Level 2 Card
+This is a sample card from level 2
+Images/landscape.png
+10, -10, -10
+-10, 10, 10
+calibri
+~

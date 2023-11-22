@@ -2,21 +2,31 @@ import pygame
 import Colors as colors
 import Fonts as fonts
 
+parse_fonts = {
+    'simple_handwriting': fonts.simple_handwriting,
+    'bad_handwriting': fonts.bad_handwriting,
+    'zoomer': fonts.zoomer,
+    'calibri': fonts.calibri
+}
+
 
 class Card():
-    def __init__(self, title: str, text: str, image_path: str = None, color:tuple = colors.tan):
+    def __init__(self, title:str, text:str, image_path:str, left_choice:str, right_choice:str, font:str, color:tuple = colors.tan):
         self.title = title or None
         self.text = text or None
         self.color = color
         self.image_path = image_path
         self.image = pygame.transform.scale(pygame.image.load(self.image_path), (300, 185))
 
+        self.left_choice_stats = left_choice.split(', ')
+        self.right_choice_stats = right_choice.split(', ')
+
         self.card_width = 350
         self.card_height = 450
 
         pygame.font.init()
-        self.title_font = fonts.title_font
-        self.body_font = fonts.body_font
+        self.title_font = fonts.title
+        self.body_font = parse_fonts[font]
 
         self.card = self.build_card()
 
@@ -37,9 +47,18 @@ class Card():
 
 
         return card_surface
+    
+
+    def choose_left(self):
+        return self.left_choice_stats[0], self.left_choice_stats[1], self.left_choice_stats[2]
+    
+
+    def choose_right(self):
+        return self.right_choice_stats[0], self.right_choice_stats[1], self.right_choice_stats[2]
+    
 
     @staticmethod
-    def text_renderer(surface:pygame.Surface, pos:tuple, text_width:int, font:pygame.font.Font, text:str, color:tuple = colors.black):
+    def text_renderer(surface:pygame.Surface, pos:tuple, text_width:int, font:pygame.font.Font, text:str, centered:bool = True, color:tuple = colors.black):
         lines = []
         curr_line = ""
         line_height = font.size(' ')[1]
@@ -52,5 +71,9 @@ class Card():
                 curr_line = word + " "
         lines.append(curr_line)
 
-        for i in range(len(lines)):
-            surface.blit(font.render(lines[i], True, colors.black), ((text_width-font.size(lines[i])[0]) / 2 + pos[0], pos[1] + (i*line_height)))
+        if centered:
+            for i in range(len(lines)):
+                surface.blit(font.render(lines[i], True, colors.black), ((text_width-font.size(lines[i])[0]) / 2 + pos[0], pos[1] + (i*line_height)))
+        else:
+            for i in range(len(lines)):
+                surface.blit(font.render(lines[i], True, colors.black), (pos[0], pos[1] + (i*line_height)))

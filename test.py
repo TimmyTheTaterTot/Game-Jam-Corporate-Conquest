@@ -1,12 +1,19 @@
+import pygame
 
-def lerp():
-    A = 0
-    B = 1
-    C = 1
+pygame.init()
+screen = pygame.display.set_mode((300, 300))
 
-    value = (C * A) + ((1-C) * B)
-    C /= 1.2
-    yield value
+newEvent = pygame.USEREVENT+1
+newEventEvent = pygame.event.Event(newEvent)
 
-print(next(lerp()))
-print(next(lerp()))
+pygame.event.post(newEventEvent)
+
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == newEvent:
+            print('got the new event')
+        if event.type == pygame.QUIT:
+            running = False
+
+        pygame.display.update()
