@@ -37,23 +37,18 @@ class App():
         self.old_card_position = None
         self.old_card_rotation = None
 
-        self.player_karma = 100
+        self.player_karma = 60
         self.player_greed = 0
         self.player_happiness = 0
 
         self.player_level = 0
         self.card_number = 1
-        self.level1_cards = [i for i in range(7, 15)]
-        self.level2_cards = [i for i in range(15, 30)]
-        self.level3_cards = [i for i in range(30, 45)]
+        self.level1_cards = rand.sample([i for i in range(7, 15)], 8)
+        self.level2_cards = rand.sample([i for i in range(15, 30)], 15)
+        self.level3_cards = rand.sample([i for i in range(30, 45)], 15)
 
         self.change_card_event_type = pygame.USEREVENT+1
         self.change_card_event = pygame.event.Event(self.change_card_event_type)
-
-        self.fail_game_event_type = pygame.USEREVENT+2
-        self.fail_game_event = pygame.event.Event(self.fail_game_event_type)
-        self.win_game_event_type = pygame.USEREVENT+3
-        self.win_game_event = pygame.event.Event(self.win_game_event_type)
 
         self.game_active = False
         self.game_over = False
@@ -203,14 +198,14 @@ class App():
                 self.fail_game()
             elif self.player_greed >= 100:
                 self.player_level += 1
-                self.player_karma = 100
+                self.player_karma = 60
                 self.promotion()
         elif self.player_level == 2:
             if self.player_karma < 0:
                 self.fail_game()
             elif self.player_greed >= 200:
                 self.player_level += 1
-                self.player_karma = 100
+                self.player_karma = 60
                 self.promotion()
         elif self.player_level == 3:
             if self.player_karma < 0:

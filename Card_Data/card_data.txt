@@ -8,211 +8,315 @@ font
 ~
 Tutorial Card 1
 Welcome to Corporate Conquest, a greedy decision making game! To advance through this tutorial, click to the left or right of this card.
-Images/beach1.jpg
+Images/Tutorial.png
 0, 0, 0
 0, 0, 0
 calibri
 ~
 Tutorial Card 2
 You have just been onboarded into a new company, given your own cubicle, and even a fresh stack of sticky notes!
-Images/beach1.jpg
+Images/Tutorial.png
 0, 0, 0
 0, 0, 0
 calibri
 ~
 Tutorial Card 3
 Your work at this company (strangly) mainly consists of making decisions based on what your boss or coworkers ask of you.
-Images/beach1.jpg
+Images/Tutorial.png
 0, 0, 0
 0, 0, 0
 calibri
 ~
 Tutorial Card 4
 Swiping right on a card means yes, and swiping left means no.
-Images/beach1.jpg
+Images/Tutorial.png
 0, 0, 0
 0, 0, 0
 calibri
 ~
 Tutorial Card 5
 Depending on the decisions you make, your greed and happiness will either increase or decrease. Since greed brings promotions, more greed is better.
-Images/beach1.jpg
+Images/Tutorial.png
 0, 0, 0
 0, 0, 0
 calibri
 ~
 Tutorial Card 6
 Now all there is to do is get working and earning more money than ever before!
-Images/beach1.jpg
+Images/Tutorial.png
 0, 0, 0
 0, 0, 0
 calibri
 ~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
+The Boss Man
+I was going to give this project to the intern, but he's useless, so do you want it? There's a bonus.
+Images/Characters/The Boss Man.png
+5, -10, 7
+-5, 15, -5
+bad_handwriting
+~
+Rich Coworker
+Hey, I was going to donate this bag of money to charity. Do you want it instead?
+Images/Characters/Rich Coworker.png
+20, -5, -5
+-15, 15, 10
 calibri
 ~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
+The Intern
+Hey, I need help with this project I'm working on. Do you think you could spare a minute of your time?
+Images/Characters/The Intern.png
+-5, 5, 5
+10, -10, 0
+zoomer
+~
+Old Man Bill
+You must be new here. I'm Bill. I found this paycheck in my pocket but I don't remember ever getting it. Do you want it?
+Images/Characters/Old Man Bill.png
+15, -10, -5
+-10, 10, 5
+cursive
+~
+The Water Cooler
+blub blub blub blub blub blub blub blub blub blub blub blub blub blub blubbity blub
+Images/Characters/The Water Cooler.png
+-5, -10, 0
+10, 15, 0
 calibri
 ~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
+The Water Cooler
+blub blub blub blub blub blub blub blub blub blub blub blub blub blub blubbity blub
+Images/Characters/The Water Cooler.png
+10, 15, 0
+-5, -10, 0
 calibri
 ~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
-calibri
+Jake the Janitor
+You left a mess all over the break room when you ate your lunch. Are you gonna come help me clean it up?
+Images/Characters/Jake the Janitor.png
+-5, 15, 5
+15, -10, -10
+stencil
 ~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
-calibri
+Crazy Larry
+Hey coworker! Me and my buddies are gonna go money laundering after work. Wanna come with?
+Images/Characters/Crazy Larry.png
+10, -5, 0
+-10, 15, 5
+bad_handwriting
 ~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
-calibri
-~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
-calibri
-~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
-calibri
-~
-Level 1 Card
-This is a sample card from level 1
-Images/landscape.png
-10, -10, -10
--9, 10, 10
-calibri
+The Office Dog
+The Office Dog wants you to pet it, but if you do your productivity will plummet.
+Images/Characters/The Office Dog.png
+-5, 10, -10
+5, -5, 15
+bad_handwriting
 ~ LEVEL 2
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
+Strange Coworker
+This is a request from the aliens of planet xmd
+Images/Characters/Alien.png
+10, 10, 0
+5, 15, 0
+alien
+~
+Your Manager
+Our bottom line is not what it should be. Lay off some of your employees.
+Images/Characters/The Manager.png
+15, -5, 0
+-10, 15, 0
+simple_handwriting
+~
+The Intern
+My coworkers aren't helping me on my projects! You should make them help me when I ask.
+Images/Characters/The Intern.png
+10, 0, 5
+-10, 0, -5
+zoomer
+~
+Crazy Larry
+I've performed way above target for this quarter, boss. I think I deserve a raise. Can I have one?
+Images/Characters/Crazy Larry.png
+-5, 10, 5
+10, -10, -5
+bad_handwriting
+~
+Rich Manager
+Hey, good to see you. I found this bag of money. Here you go. (Do you want to keep it for yourself?)
+Images/Characters/Rich Coworker.png
 10, -10, -10
--10, 10, 10
+-10, 15, 15
 calibri
 ~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
+The Office Dog
+It looks like the dog found Old Man Bill's dropped paycheck. Do you keep it?
+Images/Characters/The Office Dog.png
+5, -5, 0
+-5, 10, 5
+bad_handwriting
+~
+Strange Coworker
+I once again offer you more of my leader's offerings
+Images/Characters/Alien.png
+5, 15, 5
+5, 5, 5
+alien
+~
+The Water Cooler
+blub blub blub blub blub blub blub blub blub blub blub blub blub blub blubbity blub
+Images/Characters/The Water Cooler.png
+-5, -10, 0
+5, 20, 0
 calibri
 ~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
+The Water Cooler
+blub blub blub blub blub blub blub blub blub blub blub blub blub blub blubbity blub
+Images/Characters/The Water Cooler.png
+10, 15, 0
+-5, -10, 0
 calibri
 ~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
+Old Man Bill
+Hey boss, I need a few days of time off to go to my wife's funeral. You think I could get those days off?
+Images/Characters/Old Man Bill.png
+-10, 10, 5
+10, -10, -5
+cursive
+~
+Jake the Janitor
+Hey boss. The Intern left a mess in his cubicle. You should take his next paycheck as punishment.
+Images/Characters/Jake the Janitor.png
+0, -10, -5
+-5, 10, 5
+stencil
+~
+The Boss Man
+I need you to do a quarterly earnings report. Your bonus depends on it. (Do you fudge it?)
+Images/Characters/The Boss Man.png
+5, -10, 0
+0, 10, 5
+bad_handwriting
+~
+The Office Dog
+The Office Dog is sick and needs medical care. Do you wish to pay for it?
+Images/Characters/The Office Dog.png
+-15, 10, -5
+10, -5, 5
+bad_handwriting
+~
+Crazy Larry
+Boss, I think I found a way to double our profits if we do money laundering on the side. You down?
+Images/Characters/Crazy Larry.png
+10, -10, -5
 -10, 10, 10
+bad_handwriting
+~
+Your Manager
+The CEO has given me this money for you to hand out to your employees as a holiday bonus. (Do you keep it?)
+Images/Characters/The Manager.png
+15, -15, -10
+-10, 15, 10
+simple_handwriting
+~ LEVEL 3
+Strange Employee
+You have done well in this company. Here are some more gifts.
+Images/Characters/Alien.png
+10, 15, 5
+5, 20, 10
+alien
+~
+Old Man Bill
+I need some time off to go to the doctor. You think I could get the day off for that?
+Images/Characters/Old Man Bill.png
+-15, 10, 5
+10, -10, -5
+cursive
+~
+The Water Cooler
+blub blub blub blub blub blub blub blub blub blub blub blub blub blub blubbity blub
+Images/Characters/The Water Cooler.png
+-5, -10, 0
+5, 20, 0
 calibri
 ~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
+The Water Cooler
+blub blub blub blub blub blub blub blub blub blub blub blub blub blub blubbity blub
+Images/Characters/The Water Cooler.png
+10, 15, 0
+-5, -10, 0
 calibri
 ~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
+Strange Employee
+Don't say yes to this
+Images/Characters/Alien.png
+15, 15, 15
+-15, -15, -10
+alien
+~
+A Lower Manager
+Boss, can the employees get their bonuses so they can afford gifts for the holidays?
+Images/Characters/The Boss Man.png
+-10, 15, 5
+15, -15, -5
+bad_handwriting
+~
+Old Man Bill
+I'm about to retire and I need to get my pension. Can you get that for me?
+Images/Characters/Old Man Bill.png
+-10, 10, 5
+10, -5, -5
+cursive
+~
+The Office Dog
+The Office Dog wants a treat. Do you give it to him?
+Images/Characters/The Office Dog.png
+-10, 5, -10
+10, 5, 10
+bad_handwriting
+~
+The Intern
+Boss, I finished my project all by myself! Take a look! (Do you claim it as your own work?)
+Images/Characters/The Intern.png
+5, -10, -5
+-5, 10, 5
+zoomer
+~
+Random Rich Dude
+I found some extra money I don't need. Do you want it? I was going to give it to Old Man Bill.
+Images/Characters/Rich Coworker.png
+10, -5, -5
+-5, 15, 10
 calibri
 ~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
+A General Manager
+I need some more funds for a major project that the team and I are working on.
+Images/Characters/The Manager.png
 -10, 10, 10
-calibri
-~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
 10, -10, -10
--10, 10, 10
-calibri
+simple_handwriting
 ~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
+Jake the Janitor
+I've been working harder than ever and my manager says I deserve a raise. Can I have one?
+Images/Characters/Jake the Janitor.png
+-10, 10, 5
+10, -10, -5
+stencil
+~
+A Lower Manager
+We are starting a self improvement competition. Can we get funding for prizes?
+Images/Characters/The Boss Man.png
+-5, 10, 10
+5, -10, -10
+bad_handwriting
+~
+The Water Cooler
+blub blubbity blub blub
+Images/Characters/The Water Cooler.png
+5, 5, 5
+5, 5, 5
+zoomer
+~
+Rich Celebrity
+I really like your company, so I'll give this money to you instead of my grandma. (Do you take it?)
+Images/Characters/Rich Coworker.png
 10, -10, -10
--10, 10, 10
+-10, 15, 10
 calibri
-~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
-calibri
-~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
-calibri
-~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
-calibri
-~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
-calibri
-~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
-calibri
-~
-Level 2 Card
-This is a sample card from level 2
-Images/landscape.png
-10, -10, -10
--10, 10, 10
-calibri
-~

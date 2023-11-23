@@ -6,7 +6,10 @@ parse_fonts = {
     'simple_handwriting': fonts.simple_handwriting,
     'bad_handwriting': fonts.bad_handwriting,
     'zoomer': fonts.zoomer,
-    'calibri': fonts.calibri
+    'calibri': fonts.calibri,
+    'alien': fonts.alien,
+    'stencil': fonts.stencil,
+    'cursive': fonts.cursive
 }
 
 
