@@ -1,1 +1,1 @@
-The executable is the Corporate_Conquest.py file
+Launch Run Game.bat to launch the game
